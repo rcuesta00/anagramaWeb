@@ -573,6 +573,7 @@ input[type=submit] {
 	display: block;
 	border-top: 1px solid #3da2b9;
 	color: #000;
+	margin-top: auto;
 }
 
 .footer-last {
@@ -583,13 +584,11 @@ input[type=submit] {
 	color: #000;
 	display: flex;
 	display: -webkit-flex;
-	/* justify-content: space-around; */
-	/* -webkit-flex-flow: row wrap; */
 }
 
 .footer-last > div {
 	max-width: 700px;
-	margin-right: auto;
+	margin: 0 auto;
 	text-align: left;
 }
 
